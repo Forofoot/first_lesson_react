@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Calecon Uniqlo",
+        "status": true,
+        "description":"Ceci est une description"
+    },
+    {
+        "title": "Calecon domyos",
+        "status": true,
+        "description":"Ceci est une description"
+    },
+    {
+        "title": "Calecon Zara",
+        "status": false,
+        "description":"Ceci est une description"
+    },
+    {
+        "title": "Calecon Freegun",
+        "status": false,
+        "description":"Ceci est une description"
+    },
+    {
+        "title": "Calecon Supreme",
+        "status": true,
+        "description":"Ceci est une description"
+    }
+]
