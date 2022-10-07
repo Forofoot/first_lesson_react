@@ -1,5 +1,5 @@
 import { useState } from "react"
-import List from "../components/List"
+import List from "components/List"
 
 export default function Calbard(){
     const [currentFilter, setCurrentFilter] = useState('')

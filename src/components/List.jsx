@@ -20,7 +20,7 @@ export default function List({search}){
         setTimeout(() => {
         setItems(Calecon)
         }, 500)
-    }, [Calecon, filteredData])
+    }, [Calecon])
     return(
         <>
             {items.length ? (
@@ -28,7 +28,7 @@ export default function List({search}){
                 {(filteredData.length > 0) ? (
                     <>
                     {filteredData.map((elt, i)=>(
-                        <Item key={i} search={search} title={elt.title} status={elt.status} description={elt.description}/>
+                        <Item key={i} title={elt.title} status={elt.status} description={elt.description}/>
                     ))}
                     </>
                 ) : (

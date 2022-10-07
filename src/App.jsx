@@ -1,14 +1,14 @@
 import './App.css';
-import Clock from './containers/Clock';
-import Calbard from './containers/Calbard';
+import { Outlet } from 'react-router-dom';
+import Header from 'components/Header';
 
 function App() {
 
   return (
     <div className="App">
+      <Header/>
       <div className="App-header">
-        <Clock/>
-        <Calbard/>
+        <Outlet/>
       </div>
     </div>
   );
